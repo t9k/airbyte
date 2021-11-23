@@ -23,7 +23,7 @@ const run = keyframes`
 const Bar = styled.div`
   width: 100%;
   height: 49px;
-  background: ${({ theme }) => theme.darkBeigeColor} url("/rectangle.svg");
+  background: ${({ theme }) => theme.darkBeigeColor} url("./rectangle.svg");
   color: ${({ theme }) => theme.redColor};
   border-radius: 15px;
   font-weight: 500;
@@ -98,7 +98,7 @@ const ProgressBlock: React.FC<ProgressBlockProps> = ({
 
   return (
     <Bar>
-      <Img src={"/process-arrow.svg"} width={20} />
+      <Img src={"./process-arrow.svg"} width={20} />
       <FormattedMessage
         id="onboarding.synchronisationProgress"
         values={{

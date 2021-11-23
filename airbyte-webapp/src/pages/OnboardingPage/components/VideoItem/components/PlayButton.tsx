@@ -90,7 +90,7 @@ const SmallCircle = styled(BigCircle)`
 const PlayButton: React.FC<PlayButtonProps> = ({ small, onClick }) => {
   return (
     <MainCircle small={small} onClick={onClick}>
-      <img src="/play.svg" height={small ? 22 : 44} alt="play" />
+      <img src="./play.svg" height={small ? 22 : 44} alt="play" />
       <BigCircle>
         <MiddleCircle>
           <SmallCircle />

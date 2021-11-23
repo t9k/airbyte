@@ -126,7 +126,7 @@ const ConfirmEmailPage: React.FC = () => {
                   <FormattedMessage id="login.confirmEmail" />
                 </H5>
               </div>
-              <Img src="/newsletter.png" height={68} />
+              <Img src="./newsletter.png" height={68} />
             </TitleBlock>
             <Text>
               <FormattedHTMLMessage

@@ -30,7 +30,7 @@ const Videos = styled.div`
   justify-content: space-between;
   align-items: center;
   margin: 20px 0 50px;
-  background: url("/video-background.svg") no-repeat;
+  background: url("./video-background.svg") no-repeat;
   padding: 0 27px;
 `;
 
@@ -76,13 +76,13 @@ const FinalStep: React.FC<FinalStepProps> = ({ connectionId, onSync }) => {
           small
           description={<FormattedMessage id="onboarding.watchVideo" />}
           videoId="sKDviQrOAbU"
-          img="/videoCover.png"
+          img="./videoCover.png"
         />
         <VideoItem
           small
           description={<FormattedMessage id="onboarding.exploreDemo" />}
           videoId="sKDviQrOAbU"
-          img="/videoCover.png"
+          img="./videoCover.png"
         />
       </Videos>
       {!feedbackPassed && (

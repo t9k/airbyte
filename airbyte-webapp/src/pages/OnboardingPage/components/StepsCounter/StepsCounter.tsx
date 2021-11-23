@@ -61,7 +61,7 @@ const StepsCounter: React.FC<StepsCounterProps> = ({ steps, currentStep }) => {
         <StarsIcon />
       </Stars>
       <Rocket
-        src="/rocket.png"
+        src="./rocket.png"
         stepNumber={isLastStep ? steps.length : stepIndex}
       />
     </Content>

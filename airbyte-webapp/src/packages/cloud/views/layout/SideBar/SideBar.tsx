@@ -122,7 +122,7 @@ const SideBar: React.FC = () => {
               : Routes.Connections
           }
         >
-          <img src="/simpleLogo.svg" alt="logo" height={33} width={33} />
+          <img src="./simpleLogo.svg" alt="logo" height={33} width={33} />
         </Link>
         <WorkspacePopout>
           {({ onOpen, value }) => (

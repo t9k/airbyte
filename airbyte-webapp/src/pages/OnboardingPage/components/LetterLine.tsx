@@ -73,7 +73,7 @@ const LetterLine: React.FC<LetterLineProps> = ({ onRight, exit }) => {
     <Line onRight={onRight}>
       <Path exit={exit} />
       <Img
-        src="/newsletter.png"
+        src="./newsletter.png"
         alt="newsletter"
         width={78}
         height={68}

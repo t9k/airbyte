@@ -53,13 +53,13 @@ const WelcomeStep: React.FC<WelcomeStepProps> = ({ userName, onSubmit }) => {
         <VideoItem
           description={<FormattedMessage id="onboarding.watchVideo" />}
           videoId="sKDviQrOAbU"
-          img="/videoCover.png"
+          img="./videoCover.png"
         />
         <FormattedMessage id="onboarding.or" />
         <VideoItem
           description={<FormattedMessage id="onboarding.exploreDemo" />}
           videoId="sKDviQrOAbU"
-          img="/videoCover.png"
+          img="./videoCover.png"
         />
       </Videos>
       <BigButton onClick={onSubmit} shadow>

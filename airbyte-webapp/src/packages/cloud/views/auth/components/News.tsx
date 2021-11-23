@@ -42,7 +42,7 @@ const News: React.FC = () => {
   return (
     <>
       <div>
-        <Icon src="/cloud-hello.png" width={184} />
+        <Icon src="./cloud-hello.png" width={184} />
         {news.map((n, i) => (
           <NewsItemStyled key={i} {...n} />
         ))}
