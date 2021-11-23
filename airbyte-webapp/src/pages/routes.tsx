@@ -131,7 +131,7 @@ export const Routing: React.FC = () => {
   useAnalyticsIdentifyUser(workspace.workspaceId);
 
   return (
-    <Router>
+    <Router basename="/apps/airbyte">
       <Suspense fallback={<LoadingPage />}>
         {!workspace.initialSetupComplete ? (
           <PreferencesRoutes />

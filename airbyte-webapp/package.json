@@ -10,6 +10,7 @@
     "storybook": "start-storybook -p 9009 -s public --quiet",
     "lint": "eslint --ext js,ts,tsx src"
   },
+  "homepage": "/apps/airbyte",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
